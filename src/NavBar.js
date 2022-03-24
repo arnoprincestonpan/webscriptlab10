@@ -16,7 +16,8 @@ const NavBar = () => (
 						<a class="nav-link text-dark" href="/">Home</a>
 					</li>
 					<li b-617jbvk8u3 class="nav-item">
-						<a class="nav-link text-dark" href="/Privacy">Privacy</a>
+
+						<Link className="nav-link" to="/privacy">Privacy</Link>
 					</li>
 				</ul>
 			</div>
