@@ -39,7 +39,7 @@ function App() {
         <Routes>
           <Route path="/" element={<HomePage/>} exact />
           <Route path="/privacy" element={<Privacy/>} exact />
-          <Route path="*" element={<NotFoundPage/>} exact />
+          <Route path="*" element={<NotFoundPage/>}/>
         </Routes>
         <Footer/>
       </BrowserRouter>
